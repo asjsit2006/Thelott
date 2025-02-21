@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
+.menu {
+  display: none;
+}
+
 .header__container {
   display: flex;
   align-items: center;
@@ -126,6 +130,31 @@
   .main__container {
     width: 320px;
   }
+
+  .main__logo__description {
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+
+  .main__logo__scrore {
+    display: none;
+  }
+
+  .main__logo__text h2 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36.57px;
+    letter-spacing: 0%;
+  }
+
+  .main__logo__text h4 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42.67px;
+    letter-spacing: 0%;
+  }
 }
 
 /* GAMES */
@@ -146,7 +175,7 @@
 
 .games__container__list__item {
   padding: 40px 20px;
-  width: 305px;
+  width: 320px;
   text-align: center;
   background: linear-gradient(180deg, #35339e 0%, #5eddf6 100%);
 }
